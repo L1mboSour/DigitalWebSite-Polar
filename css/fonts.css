@@ -1,0 +1,29 @@
+@font-face {
+    font-family:"Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf) format("woff");
+}
+
+@font-face {
+    font-family:"Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf) format("woff");
+}
+
+@font-face {
+    font-family:"HindMadurai-Bold";
+    src: url(../fonts/HindMadurai-Bold.ttf) format("woff");
+}
+
+@font-face {
+    font-family:"Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf) format("woff");
+}
+
+@font-face {
+    font-family:"Fredoka-Bold";
+    src: url(../fonts/Fredoka-Bold.ttf) format("woff");
+}
+
+@font-face {
+    font-family:"HindMadurai-Regular";
+    src: url(../fonts/HindMadurai-Regular.ttf) format("woff");
+}
