@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -11,7 +12,12 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -33,7 +39,7 @@ body {
     padding: 0 16px;
 }
 
-.logo{
+.logo {
     display: flex;
 }
 
@@ -42,11 +48,12 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: transparent; /* Сделает фон шапки прозрачным */
+    background-color: transparent;
+    /* Сделает фон шапки прозрачным */
     padding: 20px 0;
 }
 
-.header-inner{
+.header-inner {
     width: 100%;
     display: flex;
     align-items: center;
@@ -54,7 +61,7 @@ body {
     padding-bottom: 33px;
 }
 
-.header-content{
+.header-content {
     display: flex;
     font-size: 15px;
     color: rgba(21, 1, 1, 0.6);
@@ -63,7 +70,7 @@ body {
     align-items: center;
 }
 
-.header-btn{
+.header-btn {
     color: #FAFAFA;
     font-family: "HindMadurai-Bold";
     padding: 14px 50px 13px 50px;
@@ -72,8 +79,8 @@ body {
     font-size: 16px;
 }
 
-.header-item{
-    display: inline-block; 
+.header-item {
+    display: inline-block;
 }
 
 .header-item:hover {
@@ -111,7 +118,7 @@ body {
     font-family: "Fredoka-Bold";
 }
 
-.word{
+.word {
     color: #D23166;
 }
 
@@ -128,26 +135,26 @@ body {
     position: relative;
 }
 
-.grouped-img > svg {
+.grouped-img>svg {
     position: absolute;
     top: 45%;
     left: 5%;
 }
 
 .ice-cream {
-    width: 100%; 
-    position: relative; 
+    width: 100%;
+    position: relative;
 }
 
 .milk-splash {
     position: absolute;
-    width: 150%; 
-    top: 17%; 
-    left: -20%; 
-    z-index: 1; 
+    width: 150%;
+    top: 17%;
+    left: -20%;
+    z-index: 1;
 }
 
-.info{
+.info {
     width: 100%;
 }
 
@@ -159,11 +166,15 @@ body {
     justify-content: space-between;
 }
 
-.info-item{
-   width: 20%; 
+.info-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%;
 }
 
-.info-title{
+.info-title {
     font-size: 20px;
     font-family: "HindMadurai-SemiBold";
 }
@@ -176,7 +187,5 @@ body {
 }
 
 .img-info {
-    margin-bottom: 23px;
+    margin: 23px 0 23px 0;
 }
-
-
