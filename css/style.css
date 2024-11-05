@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+p{
+    margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -71,6 +75,7 @@ body {
 }
 
 .header-btn {
+    display: inline-block;
     color: #FAFAFA;
     font-family: "HindMadurai-Bold";
     padding: 14px 50px 13px 50px;
@@ -124,7 +129,7 @@ body {
 
 .intro-text {
     width: 83%;
-    margin: 35px 0 50px 0;
+    margin: 35px 0 35px 0;
     color: #0F0101;
     font-family: "HindMadurai-Regular";
     font-size: 18px;
@@ -188,4 +193,42 @@ body {
 
 .img-info {
     margin: 23px 0 23px 0;
+}
+
+.info-detail{
+    position: relative;
+    background-color: rgba(242, 206, 218, 0.3);
+    width: 100%;
+}
+
+.detail-content{
+    display: flex;
+    margin: 0 auto;
+    width: 25%;
+    align-items: center;
+}
+
+.detail-title{
+    width: 60%;
+    font-family:"HindMadurai-SemiBold";
+    font-size: 44px;
+    line-height: 110%;
+    text-align: left;
+}
+
+.detail-text {
+    color: rgba(21, 1, 1, 0.6);
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    margin: 16px 0 35px 0;
+}
+
+.detail-btn{
+    display: inline-block;
+    color: #FAFAFA;
+    font-family: "HindMadurai-Bold";
+    padding: 14px 50px 13px 50px;
+    border-radius: 5px;
+    background-color: #D23166;
+    font-size: 16px;
 }
