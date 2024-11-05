@@ -27,3 +27,8 @@
     font-family:"HindMadurai-Regular";
     src: url(../fonts/HindMadurai-Regular.ttf) format("woff");
 }
+
+@font-face {
+    font-family:"HindMadurai-SemiBold";
+    src: url(../fonts/HindMadurai-SemiBold.ttf) format("woff");
+}
